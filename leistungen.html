@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michalke Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logoMichalke.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="uberuns.html">UBER UNS</a></li>
+                        <li><a href="leistungen.html">DIENSTLEISTUNGEN</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Unsere Dienstleistungen</h1>
+        </section>
+     <!-----------------------Unsere Diesleistungen Content ------------>
+     <section class="uber-uns">
+        <div class="row">
+            <div class="uber-uns-col">
+                <img src="images/neukunden.png">
+            </div>
+            <div class="uber-uns-col">
+                <h1>Neukundengewinnung</h1> 
+                <p>Sie suchen neue Wege zu mehr Umsatz? Sie haben sich hohe Ziele gesteckt ?<br>
+                    Wir gewinnen für Sie neue Kunden und binden diese langfristig an Ihr Unternehmen. 
+                    Das Telefon ist in dieser Hinsicht auch im Zeitalter des Internets weiterhin das führende Medium in der direkten Kundenansprache. 
+                    Egal, wie groß der eigene Kundenkreis Ihres Unternehmens sein mag – die Gewinnung neuer Kunden Gerade im B2B Bereich ist die direkte Kontaktaufnahme unerlässlich damit dieser direkten Fragen stellen kann und potenzielle Kritikpunkte aus dem Weg geräumt werden.
+                    Verlieren Sie also die Scheu vor der Kaltakquise und vertrauen Sie auf einen erfahrenen Marketingpartner! Wir helfen Ihnen hierbei gerne weiter und zeigen Ihnen individuelle Konzepte und Strategien für Ihre Branche und Produkte natürlich orientiert an Ihrem Budget.
+                    Eine moderne Vertriebsunterstützung ist in der Lage, Chancen und Risiken verschiedener Zielgruppen auszuloten.  Dadurch steigern Sie Ihren Umsatz und können gleichzeitig Ihren Außendienst entlasten. Telesales im Outbound können in Ihrem Auftrag gezielt Kontakt zu potenziellen Neukunden aufnehmen und hierdurch eine erste Kundenbindung herstellen.
+                </p>   
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="uber-uns-col">
+                <img src="images/kundenbindung.png">
+            </div>
+            <div class="uber-uns-col">
+                <h1>Kundenbindung</h1> 
+                <p>Nach Erfahrung von Unternehmen zahlreicher Branchen bedarf es bis zum Zehnfachen Aufwand, einen Neukunden zu gewinnen als einen Stammkunden von einem Folgeauftrag zu überzeugen.<br>
+                    Gerade wenn Messen und Kongresse zurzeit keine Möglichkeit zum Knüpfen von Kontakten bieten, ist die regelmäßige Kommunikation unverzichtbar.
+                    Wenn Sie Maßnahmen zur Kundenbindung suchen, Altkunden reaktivieren oder dafür Sorge tragen möchten, dass Ihre Kundenbindungskonzepte auch bei Ihren Kunden ankommen hilft ein zeitgemäßes Telefonmarketing hilft beim Aufbau einer stabilen Kundenbindung. Vom After Sales Service bis zur telefonischen Kundenbetreuung reicht das Spektrum. Die Terminierung für Mitarbeiter im Außendienst und weitere Maßnahmen zur Kundenzufriedenheit sind ebenfalls einfach über das Telefon umzusetzen. 
+                </p>   
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="uber-uns-col">
+                <img src="images/adressenservice.png">
+            </div>
+            <div class="uber-uns-col">
+                <h1>Adressenservice</h1> 
+                <p>Mit guten Adressen fängt erfolgreiches Direktmarketing an! <br>
+                    Gerade die sogenannte Leadgenerierung, also Kontaktaufnahme und Terminierung bei qualifizierten Interessenten, zählt zu den Basics für den erfolgreichen Vertrieb von Dienstleistungen. 
+                    Die Datenaufbereitung und Adressenoptimierung ist ein wesentlicher Bestandteil jeder Dialogmarketing-Kampagne.
+                    Wir unterstützen Sie hierbei und mit z.B. durch qualifizierter Adressauswahl und Beschaffung der Zielgruppenadressen. Bei uns geht es nicht um Masse, sondern um Klasse. Wir achten sorgfältig auf die Qualität und bieten nicht möglichst viele, sondern nur die für unseren Kunden passenden und effektivsten Adressen an.
+                </p>   
+            </div>
+        </div>
+     </section>   
+    <section class="background">    
+       <!------------ footer ----------->
+        <section class="footer">
+            <h4>Über Uns</h4>
+            <p>Aktive Kunden- und Interessentenansprache will gelernt sein.<br> Michalke-Marketing ist ein innovatives Dienstleistungsunternehmen und verfügt über eine 20-jährige Erfahrung im Bereich Direktmarketing.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+        </section>
+    </section>
+
+<!---- Javascript pour le menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+</body>
+
+
+
+</html>

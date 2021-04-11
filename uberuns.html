@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michalke Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logoMichalke.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="uberuns.html">UBER UNS</a></li>
+                        <li><a href="leistungen.html">DIENSTLEISTUNGEN</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Über Uns</h1>
+        </section>
+     <!-----------------------Uber uns Content ------------>
+     <section class="uber-uns">
+        <div class="row">
+            <div class="uber-uns-col">
+                <h1>We are the world"s Larget University</h1> 
+                <p>Michalke-Marketing ist ein innovatives Dienstleistungsunternehmen und verfügt über eine 20-jährige Erfahrung im Bereich Direktmarketing. 
+                    Ob beim direkten Telefonverkauf oder im Rahmen der Neukundengewinnung und Kundenbindung, für  das niveauvolle Gespräch mit Kunden, 
+                    mit denen Sie längerfristig oder mehrfach erfolgreich arbeiten wollen, sind wir die richtige Wahl. Wir telefonieren  für den Erfolg 
+                    unserer Kunden  aus Industrie, Handel  und Dienstleistung und unterstützen Unternehmen beim aktiven Vertrieb Ihrer Dienstleistungen und 
+                    Produkte. Von der kurzfristigen Einzelmaßnahme bis zum langfristigen Gesamtprojekt.</p>   
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>    
+            </div>
+            <div class="uber-uns-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+     </section>   
+    <section class="background">    
+       <!------------ footer ----------->
+        <section class="footer">
+            <h4>Über Uns</h4>
+            <p>Aktive Kunden- und Interessentenansprache will gelernt sein.<br> Michalke-Marketing ist ein innovatives Dienstleistungsunternehmen und verfügt über eine 20-jährige Erfahrung im Bereich Direktmarketing.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+        </section>
+    </section>
+
+<!---- Javascript pour le menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+</body>
+
+
+
+</html>

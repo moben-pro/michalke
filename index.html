@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michalke Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logoMichalke.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="uberuns.html">UBER UNS</a></li>
+                        <li><a href="leistungen.html">DIENSTLEISTUNGEN</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Michalke-Marketing</h1>
+                <p>Direkte Kundensprache. <br>... Ihr direkter Weg zum Erfolg</p>
+                <a href="" class="hero-btn">Kontaktieren Sie uns für weitere Informationen</a>
+            </div>
+        </section>
+    <section class="background">    
+        <!------------ header2 ----------->
+        <section class="header2">
+            <h1>Sie suchen neue Wege zu mehr Umsatz?<br>Sie haben sich hohe Ziele gesteckt ?</h1>
+            <div class="header2-col">
+                <div>
+                    <p>Dann ist jetzt der richtige Zeitpunkt für Sie, aktiv neue Kunden zu gewinnen , seit 20 Jahren unterstützen wir unser Auftraggeber mit Telefon-Direktmarketing rund um Dienstleistungen für die Immobilienwirtschaft. </p>
+                </div>
+                <img src="images/logoMichalke.jpg">
+            </div>
+        </section>
+        <!------------ leistungen ----------->
+        <section class="leistungen">
+            <h1>Unsere Dienstleistungen</h1>
+            <p>Bei Michalke Marketing bieten wir Ihnen folgende Dienstleistungen an :</p>
+            <div class="row">
+                <div class="leistungen-col">
+                    <img src="images/neukunden.png">
+                    <div class="layer"></div>
+                    <h3>NEUKUNDENGEWINNUNG</h3>
+                    <p>Sie suchen neue Wege zu mehr Umsatz? Sie haben sich hohe Ziele gesteckt ?
+                            Wir gewinnen für Sie neue Kunden und binden diese langfristig an Ihr Unternehmen. 
+                            Das Telefon ist in dieser Hinsicht auch im Zeitalter des Internets weiterhin das führende Medium in der direkten Kundenansprache. 
+                    </p>
+                </div>
+                <div class="leistungen-col">
+                    <img src="images/kundenbindung.png">
+                    <div class="layer"></div>
+                    <h3>KUNDENBINDUNG</h3>
+                    <p>Nach Erfahrung von Unternehmen zahlreicher Branchen bedarf es bis zum Zehnfachen Aufwand, einen Neukunden zu gewinnen als einen Stammkunden von einem Folgeauftrag zu überzeugen.
+                    </p>
+                </div>
+                <div class="leistungen-col">
+                    <img src="images/adressenservice.png">
+                    <div class="layer"></div>
+                    <h3>ADRESSENSERVICE</h3>
+                    <p>Mit guten Adressen fängt erfolgreiches Direktmarketing an! </p>
+                </div>
+            </div>
+        </section>
+        <!------------ footer ----------->
+        <section class="footer">
+            <h4>Über Uns</h4>
+            <p>Aktive Kunden- und Interessentenansprache will gelernt sein.<br> Michalke-Marketing ist ein innovatives Dienstleistungsunternehmen und verfügt über eine 20-jährige Erfahrung im Bereich Direktmarketing.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+        </section>
+    </section>
+
+<!---- Javascript pour le menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+</body>
+
+
+
+</html>
